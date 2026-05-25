@@ -1,17 +1,19 @@
 class script(object):
+   class script(object):
+
     START_TXT = """<b>{}, {}
 
-ɪ ᴀᴍ <a href="https://telegram.me/{}">{}</a>, ᴀ ᴘᴏᴡᴇʀꜰᴜʟ ᴀɴɪᴍᴇ ᴀᴜᴛᴏ-ꜰɪʟᴛᴇʀ ʙᴏᴛ ᴡɪᴛʜ ᴘʀᴇᴍɪᴜᴍ ꜰᴇᴀᴛᴜʀᴇꜱ ❤‍🔥
+I AM <a href='https://telegram.me/Manchi_MoviezZ'>MOVIESEARCH</a>, I CAN PROVIDE MOVIES AND SERIES 😁. YOU WILL GET FILES FOR FREE.
 
-<blockquote><i>✨ ꜱᴇᴀʀᴄʜ ᴀɴʏ ᴀɴɪᴍᴇ ᴄᴏɴᴛᴇɴᴛ ɪɴ ꜱᴇᴄᴏɴᴅꜱ.</i></blockquote></b>"""
-
-    ABOUT_TXT = """<b>‣ ᴍʏ ɴᴀᴍᴇ : <a href=https://telegram.me/{}>{}</a>
-‣ ᴄʀᴇᴀᴛᴏʀ : <a href='https://telegram.me/ComicArc'>ʀᴀʜᴜʟ</a> 
-‣ ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a>
-‣ ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 𝟹</a> 
-‣ ᴅᴀᴛᴀ ʙᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a> 
-‣ ʙᴏᴛ sᴇʀᴠᴇʀ : <a href='https://heroku.com/'>ʜᴇʀᴏᴋᴜ</a> 
-‣ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ𝟸 [ ꜱᴛᴀʙʟᴇ ]</b>"""
+<blockquote><i>✨ SEARCH ANY CONTENT IN SECONDS.</i></blockquote></b>"""
+       
+    ABOUT_TXT = """<b>
+‣ MY NAME : <a href='https://telegram.me/YourUsername'>MOVIESEARCH</a>
+‣ LIBRARY : <a href='https://docs.pyrogram.org/'>PYROGRAM</a>
+‣ LANGUAGE : <a href='https://www.python.org/'>PYTHON 3</a>
+‣ DATA BASE : <a href='https://www.mongodb.com/'>MONGO DB</a>
+‣ BOT SERVER : <a href='https://render.com/'>RENDER</a>
+‣ BUILD STATUS : v2 [ STABLE ]</b>"""
 
     MULTI_STATUS_TXT = """<b>🗃ᴜsᴇʀs ᴅᴀᴛᴀʙᴀsᴇ 🗃
 
