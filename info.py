@@ -33,11 +33,11 @@ AUTH_REQ_CHANNELS = [int(ch) for ch in environ.get("AUTH_REQ_CHANNELS", "-100392
 REQST_CHANNEL = int(ch) if (ch := environ.get("REQST_CHANNEL", "")) and id_pattern.search(ch) else None
 SUPPORT_CHAT_ID = int(ch) if (ch := environ.get("SUPPORT_CHAT_ID", "-1003314977013")) and id_pattern.search(ch) else None
 
-OWNER = int(os.environ.get("OWNER", "1255023013"))
-CHANNEL_LINK = environ.get('CHANNEL_LINK', 'https://telegram.me/Techifybots')
-GROUP_LINK = environ.get('GROUP_LINK', 'https://telegram.me/TechifySupport')
+OWNER = int(os.environ.get("OWNER", "1208374738"))
+CHANNEL_LINK = environ.get('CHANNEL_LINK', 'https://t.me/+2Ty1_CDfHNthN2M1')
+GROUP_LINK = environ.get('GROUP_LINK', 'https://t.me/+thLSj5brLaFiZTRl')
 
-DATABASE_URI = environ.get('DATABASE_URI', "")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://hydra4314:hydra123@cluster0.2fq917d.mongodb.net/?appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "filter")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'files')
 MULTIPLE_DB = is_enabled(os.environ.get('MULTIPLE_DB', "False"), False)
