@@ -3,12 +3,12 @@ class script(object):
 
     START_TXT = """<b>{}, {}
 
-I AM <a href='https://telegram.me/Manchi_MoviezZ'>MOVIESEARCH</a>, I CAN PROVIDE MOVIES AND SERIES 😁. YOU WILL GET FILES FOR FREE.
+I AM <a href='https://telegram.me/moviesearch18'>MOVIESEARCH</a>, I CAN PROVIDE MOVIES AND SERIES 😁. YOU WILL GET FILES FOR FREE.
 
 <blockquote><i>✨ SEARCH ANY CONTENT IN SECONDS.</i></blockquote></b>"""
        
     ABOUT_TXT = """<b>
-‣ MY NAME : <a href='https://telegram.me/YourUsername'>MOVIESEARCH</a>
+‣ MY NAME : <a href='https://telegram.me/moviessearch18'>MOVIESEARCH</a>
 ‣ LIBRARY : <a href='https://docs.pyrogram.org/'>PYROGRAM</a>
 ‣ LANGUAGE : <a href='https://www.python.org/'>PYTHON 3</a>
 ‣ DATA BASE : <a href='https://www.mongodb.com/'>MONGO DB</a>
