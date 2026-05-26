@@ -95,7 +95,7 @@ async def start(client, message):
                         InlineKeyboardButton('ᴀʙᴏᴜᴛ 📜', callback_data='about'),
                         InlineKeyboardButton('ᴜᴘɢʀᴀᴅᴇ 🎟', callback_data="premium_info")
                    ],[
-                        InlineKeyboardButton('📢 UPDATES', user_id=int(UPDATE_CHANNEL))
+                        InlineKeyboardButton('📢 UPDATES', url=CHANNEL_LINK)
                     ]]
             reply_markup = InlineKeyboardMarkup(buttons)
             m=await message.reply_sticker("CAACAgUAAxkBAAI47WjK1V24t_kyUL-ywJQQdxtaWnaeAAIMFgACpzEZVdpZS0jMvfn5HgQ")
