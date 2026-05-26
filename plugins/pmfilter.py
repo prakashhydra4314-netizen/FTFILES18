@@ -311,7 +311,7 @@ async def advantage_spoll_choker(bot, query):
                 await bot.send_message(chat_id=LOG_CHANNEL, text=script.NORSLTS.format(reqstr.id, reqstr.mention, movie))
             except Exception as e:
                 print(f"Error In Spol - {e} Make Sure Bot Admin LOG CHANNEL")
-        btn = InlineKeyboardMarkup([[InlineKeyboardButton("REQUEST TO channel 📩", url=CHANNEL_LINK))]])
+        btn = InlineKeyboardMarkup([[InlineKeyboardButton("REQUEST TO channel 📩", url=CHANNEL_LINK)]])
         k = await query.message.edit(script.NOT_FOUND_TXT, reply_markup=btn)
         await asyncio.sleep(10)
         await k.delete()
