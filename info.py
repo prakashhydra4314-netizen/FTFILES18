@@ -16,7 +16,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'techifybots')
 API_ID = int(environ.get('API_ID', '32182319'))
 API_HASH = environ.get('API_HASH', '773fe7e0f7247b43a79e3c2235385853')
-BOT_TOKEN = environ.get('BOT_TOKEN', "8837642684:AAE9mcl-gCE25Q_DXUjM8jNJeE6l_CkHVq4")
+BOT_TOKEN = environ.get('BOT_TOKEN', "8944472284:AAGBn6MSlriknMNfw-M1uIxK3moOKSKNBrg")
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
 INDEX_CAPTION = bool(environ.get('INDEX_CAPTION', False))
 COVER = bool(environ.get('COVER', False))
